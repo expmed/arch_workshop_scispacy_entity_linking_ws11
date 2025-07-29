@@ -1,0 +1,4 @@
+environment
+environment/*
+corpus_pubtator.*
+.DS_Store
