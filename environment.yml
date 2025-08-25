@@ -1,0 +1,9 @@
+name: arch_ws_12_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - jupyter
+  - fsspec
+  - pyarrow
