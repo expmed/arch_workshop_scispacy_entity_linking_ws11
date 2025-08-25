@@ -42,8 +42,22 @@ This installs all required Python packages for the notebooks.
 
 ```bash
 conda env create -f environment.yml
-conda activate environment  # replace with your env name if different
+conda activate arch_ws_12_env  # replace with your env name if different
 ```
+
+🔨 Step 4: Install the ScispaCy Package
+
+***Note: nmslib is a dependency of Scispacy and needs to be installed separately and prior to installing ScispaCy***
+
+If on Windows 11, you should be able to just do `pip install scispacy` and nmslib should be installed correctly.
+If on an M1 MacOS machine, you should be able to first use `CFLAGS="-mavx -DWARN(a)=(a)" pip install nmslib` followed by `pip install scipsacy`
+If on an M2 - M4 MacOS machine, `conda install -c conda-forge nmslib` followed by `pip install scispacy` should work
+
+Follow the instructions above to install the nmslib dependency, and then execute the following in your activated `arch_ws_12_env` environment
+
+1. Install scispacy with `pip install scipacy`
+2. Install the small scispacy model with `pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz`
+
 
 📓 Step 4: Launch the Workshop Jupyter Notebook
 From within your activated Conda environment and workshop directory:
