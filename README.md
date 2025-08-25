@@ -1,4 +1,4 @@
-# ARCH Workshop: Named Entity Linking from Clinical and Biomedical Text with SciSpacy [WS11]
+# ARCH Workshop: Named Entity Linking from Clinical and Biomedical Text with SciSpacy [WS12]
 
 ### Links to Resources used During Workshop
 
@@ -10,7 +10,7 @@
 ## Options to Follow Along with the Hands On Module
 
 ### *Option 1.* Link to Notebook in Google Colab *(preferred)*:
-1. Google Colab Link to Notebook: [Google Colab Link](https://colab.research.google.com/github/btwooton/arch_workshop_scispacy_entity_linking_ws11/blob/main/workshop_notebook.ipynb)
+1. Google Colab Link to Notebook: [Google Colab Link](https://colab.research.google.com/github/expmed/arch_workshop_scispacy_entity_linking_ws11/blob/main/workshop_notebook.ipynb)
 
 ### *Option 2.* Minimal Local Environment Instructions *(for Workshop Attendees who Want to Run Locally)* 
 
@@ -29,20 +29,20 @@ After installing, open Anaconda Prompt (Windows) or a terminal (Mac/Linux).
 If you're using Git:
 
 ```bash
-git clone https://github.com/expmed/arch_workshop_synthetic_data_ws7.git
-cd arch_workshop_synthetic_data_ws7
+git clone https://github.com/expmed/arch_workshop_scispacy_entity_linking_ws11.git
+cd arch_workshop_scispacy_entity_linking_ws11
 ```
 Or, download the ZIP from the provided link and extract it. Then navigate into the folder:
 
 ```bash
-cd arch_workshop_synthetic_data_ws7
+cd arch_workshop_scispacy_entity_linking_ws11
 ```
 🧪 Step 3: Create and Activate the Conda Environment
 This installs all required Python packages for the notebooks.
 
 ```bash
 conda env create -f environment.yml
-conda activate synthetic-data-generation  # replace with your env name if different
+conda activate environment  # replace with your env name if different
 ```
 
 📓 Step 4: Launch the Workshop Jupyter Notebook
